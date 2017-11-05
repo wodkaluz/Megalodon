@@ -118,7 +118,7 @@ ul li {
 	text-transform: uppercase;
 }
 #header.fixed {
-	background-color: #fff;
+	background-color: white;   /** NAVEGACAO MOVEL **/
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -136,6 +136,7 @@ ul li {
 	transition: opacity 0.5s;
 }
 .navigation {
+	background: transparent;
 	float: right;
 }
 .navigation li {
