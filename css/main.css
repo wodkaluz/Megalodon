@@ -83,14 +83,12 @@ ul, ol {
 ul li {
 	list-style: none;
 }
-.section {
-	padding: 100px 0;
-}
+
 .no-padding {
 	padding: 0;
 }
 .no-gutter [class*=col-] {
-	padding-right: 0;
+	padding-right: 10;
 	padding-left: 0;
 }
 /* ------------------------------------------------------------------------------
@@ -343,39 +341,9 @@ ul li {
 /* ------------------------------------------------------------------------------
 	 Services
 -------------------------------------------------------------------------------*/
-.services {
-	width: 94%;
-	margin: auto;
-	background-color: #f2f2f2;
-}
-.services h4 {
-	font-size: 33px;
-	line-height: 33px;
-	letter-spacing: 2px;
-	font-weight: 300;
-}
-.services h5 {
-	font-size: 21px;
-	font-weight: 300;
-	margin-bottom: 10%;
-	text-transform: none;
-}
-.services p {
-	color: #6c7279;
-	font-size: 13px;
-	font-weight: 400;
-	margin-top: 7%;
-}
-.services-content {
-	margin: 50px;
-}
-.services-content li a {
-	color: #6c7279;
-	line-height: 30px;
-}
-.services-content li a:hover {
-	color: #000;
-}
+
+
+
 /* ------------------------------------------------------------------------------
 	 Portfolio
 -------------------------------------------------------------------------------*/
@@ -474,8 +442,8 @@ ul li {
 	width: 94%;
 	margin: auto;
 	text-align: left;
-	padding-top: 5%;
-	padding-bottom: 7%;
+	padding-top: 1%;
+	padding-bottom: 0%;
 }
 .footer h4 {
 	font-size: 13px;
@@ -546,6 +514,31 @@ ul li {
                        CAMPS
 --------------------------------------------------*/
 
-.camp img{ 
-	margin-left: 5%;
+.campeonatos {
+	width: 95%;
+	margin: auto;
+	background-color: #f2f2f2;
+	
+}
+
+.campeonatos h1{
+
+	font: 30px "Open Sans", sans-serif;
+	letter-spacing: 1px;
+}
+
+.camps{ 
+	position: relative;
+	padding-bottom: 1%;
+	margin-right: 3%;
+	margin-left: 3%;
+	width: 17%;
+}
+
+#logo-wide{
+	max-width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-top: 100px ;
 }
