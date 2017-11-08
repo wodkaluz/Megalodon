@@ -524,7 +524,7 @@ ul li {
 
 .campeonatos h1{
 
-	font: 30px "Open Sans", sans-serif;
+	font: 40px "Open Sans", sans-serif;
 	letter-spacing: 1px;
 }
 
@@ -537,7 +537,13 @@ ul li {
 }
 
 #logo-wide{
-	max-width: 20%;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo-over{
+	height: 200px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px ;
