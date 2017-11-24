@@ -73,6 +73,8 @@ a:hover, a:focus {
 }
 body {
 	background-image: url("https://image.freepik.com/free-photo/metallic-texture-with-hexagons_1048-5099.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
 	color: #6c7279;
