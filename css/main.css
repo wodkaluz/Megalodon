@@ -558,6 +558,11 @@ div.tab button.active {
     border-top: none;
 }
 
+.tabcontent h3{
+	text-align: left;
+	padding-left: 8%;
+}
+
 
 
 
