@@ -1,8 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<html>
 
 <head>
 <meta charset="utf-8">
@@ -16,6 +18,8 @@
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="icon" href="images/slider/megalogo.png" sizes="16x16" type="image/png">
+
+
 </head>
 
 <body>
@@ -49,16 +53,58 @@
 <!-- Service Section -->
 
 <section id="lol" class="campeonatos">
-	<h1 align=center>Torneios de League of Legends</h3>
 	<center>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'TodosLoL')" id="defaultOpen">Todos os Torneios</button>  
+  <button class="tablinks" onclick="openTab(event, 'MegaNoiteLoL')">LoLzinho da Noite</button>
+  <button class="tablinks" onclick="openTab(event, 'MegaMadrugaLoL')">LoLzinho da Madruga</button>
+  <button class="tablinks" onclick="openTab(event, 'MegaMembrosLoL')">Torneios para Mega Membros</button>
+  <button class="tablinks" onclick="openTab(event, 'SDLLoL')">Torneios SDL</button>
+</div>
+
+<div id="TodosLoL" class="tabcontent">
+
+	<h1 align=center>Todos os Torneios</h3>
+
 	<a><img src="images/slider/Mega_Box_Segunda_LoL.png" class="camps" alt=""> </a>
 	<a><img src="images/slider/Mega_Box_Terca_LoL.png" class="camps" alt=""> </a>
 	<a><img src="images/slider/Mega_Box_Quarta_LoL.png" class="camps" alt=""> </a>
 	<a><img src="images/slider/Mega_Box_Quinta_LoL.png" class="camps" alt=""> </a>
 	<a><img src="images/slider/Mega_Box_QuintaA_LoL.png" class="camps" alt=""> </a>
 	<a><img src="images/slider/Mega_Box_Sexta_LoL.png" class="camps" alt=""> </a>
-	<a><img src="images/slider/Mega_Box_Sabado_LoL.png" class="camps" class="camps" alt=""> </a>
-	<a><img src="images/slider/img1.jpg" class="camps" class="camps" alt=""> </a>
+	<a><img src="images/slider/Mega_Box_Sabado_LoL.png" class="camps"  alt=""> </a>
+	<a><img src="images/slider/img1.jpg" class="camps" alt=""> </a>
+</div>
+
+<div id="MegaNoiteLoL" class="tabcontent">
+	<h1 align=center>Mega LoLzinho da Noite e GmG</h3>
+	<a><img src="images/slider/Mega_Box_Segunda_LoL.png" class="camps" alt=""> </a>
+	<a><img src="images/slider/Mega_Box_Terca_LoL.png" class="camps" alt=""> </a>
+	<a><img src="images/slider/Mega_Box_Quarta_LoL.png" class="camps" alt=""> </a>
+	<a><img src="images/slider/Mega_Box_Quinta_LoL.png" class="camps" alt=""> </a>
+	<a><img src="images/slider/Mega_Box_Sexta_LoL.png" class="camps" alt=""> </a>
+	<a><img src="images/slider/Mega_Box_Sabado_LoL.png" class="camps"  alt=""> </a>
+	<a><img src="images/slider/img1.jpg" class="camps" alt=""> </a> 
+</div>
+
+<div id="MegaMadrugaLoL" class="tabcontent">
+	<h1 align=center>Mega LoLzinho da Madruga</h3>
+	<a><img src="images/slider/Mega_Box_Segunda_LoL.png" class="camps" alt=""> </a>
+</div>
+
+
+<div id="MegaMembrosLoL" class="tabcontent">
+	<h1 align=center>Torneios para Mega Membros</h3>
+	<a><img src="images/slider/Mega_Box_Segunda_LoL.png" class="camps" alt=""> </a>
+</div>
+
+<div id="SDLLoL" class="tabcontent">
+	<h1 align=center>Torneios SDL</h3>
+	<a><img src="images/slider/Mega_Box_Segunda_LoL.png" class="camps" alt=""> </a>
+</div>
+
+
 </center>
 </section>
 <!-- Service Section --> 
@@ -110,7 +156,7 @@
     </div>
     <div class="col-md-2 left">
       <h4>Contato</h4>
-        <a href="mailto:contato@megalodongmg.com"> contato@megalodongmg.com </a></p>
+        <a href="mailto:contato@megalodongmg.com"> contato@megalodongaming.com </a></p>
     </div>
     <div class="col-md-2 left">
       <h4>Redes Sociais</h4>
@@ -131,5 +177,23 @@
 <script src="js/retina.min.js"></script> 
 <script src="js/modernizr.js"></script> 
 <script src="js/main.js"></script>
+<script>
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
 </body>
 </html>
