@@ -519,6 +519,7 @@ ul li {
 --------------------------------------------------*/
 
 .campeonatos {
+	background-color: rgba(0, 0, 1, 0.1);
 	width: 95%;
 	margin: auto;
 	background-color: #f2f2f2;
