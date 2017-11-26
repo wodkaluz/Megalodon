@@ -121,7 +121,7 @@ ul li {
 	text-transform: uppercase;
 }
 #header.fixed {
-	background-color: rgba(0, 0, 1, 0.4);   /** NAVEGACAO MOVEL **/
+	background-color: rgba(0, 0, 1, 0.2);   /** NAVEGACAO MOVEL **/
 }
 #header.fixed .header-content {
 	border-bottom: 0;
