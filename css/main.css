@@ -590,8 +590,8 @@ div.tab button.active {
 	
 	font: 250% "Open Sans", sans-serif;
 	letter-spacing: 1px;
-	max-width: 35%;
-	max-height: 10%;
+	text-align: center;
+	position: relative;
 }
 
 .camps{ 
@@ -609,7 +609,6 @@ div.tab button.active {
 
 #logo-over{
 	width: 17%;
-	padding-top: 5%;
 }
 
 #home {
@@ -617,5 +616,4 @@ div.tab button.active {
 }
 
 .tophead {
-	padding-bottom: 5%;
 }
