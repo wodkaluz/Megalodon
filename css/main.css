@@ -170,6 +170,7 @@ ul li {
 	-o-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
+	border-bottom: 10%;
 }
 .nav-toggle:before, .nav-toggle:after {
 	border-radius: 50%;
@@ -507,6 +508,8 @@ ul li {
 	line-height: 27px;
 	letter-spacing: 1px;
 	font-weight: 300;
+
+
 }
 .detail-content p {
 	color: #6c7279;
@@ -559,7 +562,7 @@ div.tab button.active {
     border-top: none;
 }
 
-.tabcontent h3{
+.tabcontent h4{
 	text-align: left;
 	padding-left: 8%;
 }
@@ -584,7 +587,7 @@ div.tab button.active {
 
 .campeonatos h1{
 
-	font: 40px "Open Sans", sans-serif;
+	font: 250% "Open Sans", sans-serif;
 	letter-spacing: 1px;
 }
 
@@ -593,7 +596,7 @@ div.tab button.active {
 	margin-bottom: 20px;
 	margin-right: 10px;
 	margin-left: 10px;
-	width: 17%;
+	max-width: 35%;
 }
 
 #logo-wide{
@@ -604,7 +607,13 @@ div.tab button.active {
 
 #logo-over{
 	width: 17%;
-	margin-top: 10% ;
+	padding-top: 5%;
 }
 
+#home {
+	border-top: auto;
+}
 
+.tophead {
+	padding-bottom: 5%;
+}
