@@ -586,9 +586,11 @@ div.tab button.active {
 }
 
 .campeonatos h1{
-
+	
 	font: 250% "Open Sans", sans-serif;
 	letter-spacing: 1px;
+	max-width: 35%;
+	max-height: 10%;
 }
 
 .camps{ 
@@ -596,7 +598,6 @@ div.tab button.active {
 	margin-bottom: 20px;
 	margin-right: 10px;
 	margin-left: 10px;
-	max-width: 35%;
 }
 
 #logo-wide{
