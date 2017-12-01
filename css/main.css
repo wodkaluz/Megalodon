@@ -118,9 +118,12 @@ ul li {
 	font-weight: 700;
 	float: left;
 	text-transform: uppercase;
+
+}
+
 }
 #header.fixed {
-	background-color: rgba(0, 0, 1, 0.3);   /** NAVEGACAO MOVEL **/
+	background-color: rgba(184, 187, 193, 0.9);   /** NAVEGACAO MOVEL **/
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -153,7 +156,7 @@ ul li {
 	text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
-	color: #bcbcbc;
+	color: white;
 }
 .nav-toggle {
 	display: none;
