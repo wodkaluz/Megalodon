@@ -34,10 +34,9 @@ h4 {
 	font-weight: 400;
 }
 h5 {
-	font-size: 14px;
+	font-size: 13px;
 	color: #2d3033;
-	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 500;
 }
 .btn {
 	background-color: #333;
@@ -450,7 +449,7 @@ ul li {
 	padding-bottom: 0%;
 }
 .footer h4 {
-	font-size: 13px;
+	font-size: 14px;
 	color: #000;
 	margin: 0 0 15px 0;
 	padding: 0px;
@@ -461,12 +460,14 @@ ul li {
 }
 .footer a {
 	color: #000;
+	
 }
 .footer a:hover {
 	text-decoration: underline;
 }
 .footer .footer-share {
 	margin-top: 0;
+	margin-left: 5%;
 }
 .footer .footer-share li {
 	display: inline-block;
@@ -596,16 +597,14 @@ div.tab button.active {
 }
 
 #logo-wide{
-	height: 200px;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #logo-over{
-	height: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 100px ;
+	width: 17%;
+	margin-top: 8% ;
 }
 
 
