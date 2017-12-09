@@ -540,9 +540,8 @@ div.tab button {
     border: none;
     outline: none;
     cursor: pointer;
-	max-width: 45%;
+	max-width: 40%;
     padding: 14px 16px;
-    transition: 0.3s;
     font-size: 17px;
 }
 
