@@ -543,7 +543,8 @@ div.tab button {
     outline: none;
     cursor: pointer;
 	width: 25%;
-    padding: 14px 16px;
+    padding-top: 14px;
+	padding-bottom: 14px;
     font-size: 110%;
 }
 
