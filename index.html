@@ -57,8 +57,10 @@
 
 <div class="tab">
 
-  <button class="tablinks" onclick="openTab(event, 'TodosLoL')" id="defaultOpen">Todos os Torneios</button>
-  <button class="tablinks" onclick="openTab(event, 'infosLoL')">Mais Informações</button>
+  <button class="tablinks" onclick="some('',''); aparece('.campsEloLimitado','.campsEloLivre','.campsEspeciais'), desmarca(),marca('#abaTodos')" id='abaTodos'>Todos os Torneios</button>
+  <button class="tablinks" onclick="aparece('.campsEloLimitado','.campsEloLivre','.campsEspeciais'); some('.campsEloLimitado','.campsEspeciais'), desmarca(),marca('#abaEloLivre')" id='abaEloLivre'>Elo Livre</button>
+  <button class="tablinks" onclick="aparece('.campsEloLimitado','.campsEloLivre','.campsEspeciais'); some('.campsEloLivre','.campsEspeciais'), desmarca(),marca('#abaEloLimitado')" id='abaEloLimitado'>Elo Limitado</button>
+  <button class="tablinks" onclick="aparece('.campsEloLimitado','.campsEloLivre','.campsEspeciais'); some('.campsEloLivre','.campsEloLimitado'), desmarca(),marca('#abaEspecial'); " id='abaEspecial'>Especiais</button>
 
   
   <!--  
@@ -68,44 +70,46 @@
   <button class="tablinks" onclick="openTab(event, '')">Torneios SDL</button> -->
 </div>
 <h1>League of Legends</h1>
-<div id="TodosLoL" class="tabcontent">
+
 
 	<!-- Segunda 19 -->
-	<a id="seg19" target="_blank" ><img src="images/slider/Mega_Box_Segunda_LoL.jpg" class="camps" alt=""> </a>
+	<a id="seg19" target="_blank" ><img src="images/slider/Mega_Box_Segunda_LoL.png" class="campsEloLimitado" alt=""> </a>
 	<!-- Segunda 20 -->
-	<a id="seg20" target="_blank"><img src="images/slider/Mega_Box_Segunda20_LoL.jpg" class="camps" alt=""> </a>
+	<a id="seg20" target="_blank"><img src="images/slider/Mega_Box_Segunda20_LoL.png" class="campsEloLimitado" alt=""> </a>
 	<!-- Terça 19 -->
-	<a id="ter19" target="_blank"><img src="images/slider/Mega_Box_Terca_LoL.jpg" class="camps" alt=""> </a>
+	<a id="ter19" target="_blank"><img src="images/slider/Mega_Box_Terca_LoL.png" class="campsEloLivre" alt=""> </a>
 	<!-- Terça 20 -->
-	<a id="ter20" target="_blank"><img src="images/slider/Mega_Box_Terca20_LoL.jpg" class="camps" alt=""> </a>
+	<a id="ter20" target="_blank"><img src="images/slider/Mega_Box_Terca20_LoL.png" class="campsEloLimitado" alt=""> </a>
 	<!-- Quarta 19 -->
-	<a id="qua19" target="_blank"><img src="images/slider/Mega_Box_Quarta_LoL.jpg" class="camps" alt=""> </a>
+	<a id="qua19" target="_blank"><img src="images/slider/Mega_Box_Quarta_LoL.png" class="campsEloLivre" alt=""> </a>
 	<!-- Quarta 20 -->
-	<a id="qua20" target="_blank"><img src="images/slider/Mega_Box_Quarta20_LoL.jpg" class="camps" alt=""> </a>
+	<a id="qua20" target="_blank"><img src="images/slider/Mega_Box_Quarta20_LoL.png" class="campsEloLimitado" alt=""> </a>
 	<!-- Quinta 19 -->
-	<a id="qui19" target="_blank"><img src="images/slider/Mega_Box_Quinta_LoL.jpg" class="camps" alt=""> </a>
+	<a id="qui19" target="_blank"><img src="images/slider/Mega_Box_Quinta_LoL.png" class="campsEloLivre" alt=""> </a>
 	<!-- Quinta 20 -->
-	<a id="qui20" target="_blank"><img src="images/slider/Mega_Box_Quinta20_LoL.jpg" class="camps" alt=""> </a>
+	<a id="qui20" target="_blank"><img src="images/slider/Mega_Box_Quinta20_LoL.png" class="campsEloLimitado" alt=""> </a>
 	<!-- Quinta Aram -->
-	<a id="quiaram" target="_blank"><img src="images/slider/Mega_Box_QuintaA_LoL.jpg" class="camps" alt=""> </a>
+	<a id="quiaram" target="_blank"><img src="images/slider/Mega_Box_QuintaA_LoL.png" class="campsEspeciais" alt=""> </a>
 	<!-- Sexta 19 -->
-	<a id="sex19" target="_blank"><img src="images/slider/Mega_Box_Sexta_LoL.jpg" class="camps" alt=""> </a>
+	<a id="sex19" target="_blank"><img src="images/slider/Mega_Box_Sexta_LoL.png" class="campsEloLimitado" alt=""> </a>
 	<!-- Sexta 20 -->
-	<a id="sex20" target="_blank"><img src="images/slider/Mega_Box_Sexta20_LoL.jpg" class="camps" alt=""> </a>
+	<a id="sex20" target="_blank"><img src="images/slider/Mega_Box_Sexta20_LoL.png" class="campsEloLimitado" alt=""> </a>
 	<!-- Sábado 19 -->
-	<a id="sab19" target="_blank"><img src="images/slider/Mega_Box_Sabado_LoL.jpg" class="camps"  alt=""> </a>
+	<a id="sab19" target="_blank"><img src="images/slider/Mega_Box_Sabado_LoL.png" class="campsEloLivre"  alt=""> </a>
 	<!-- Sabado 20 -->
-	<a id="sab20" target="_blank"><img src="images/slider/Mega_Box_Sabado20_LoL.jpg" class="camps"  alt=""> </a>
+	<a id="sab20" target="_blank"><img src="images/slider/Mega_Box_Sabado20_LoL.png" class="campsEloLimitado"  alt=""> </a>
 	<!-- Sabado 1X1 -->
-	<a id="sab1x1"  target="_blank"><img src="images/slider/Mega_Box_SabadoX_LoL.jpg" class="camps" alt=""> </a>
+	<a id="sab1x1"  target="_blank"><img src="images/slider/Mega_Box_SabadoX_LoL.png" class="campsEspeciais" alt=""> </a>
+		<!-- Domingo 19 -->
+	<a id="dom19" target="_blank"><img src="images/slider/Mega_Box_Domingo_LoL.png" class="campsEloLivre" alt=""> </a>
+    <!-- Domingo 20 -->
+	<a id="dom20" target="_blank"><img src="images/slider/Mega_Box_Domingo20_LoL.png" class="campsEloLimitado" alt=""> </a>
+	
 	<!-- Domingo 20 -->
 	<!-- GmG
 	<a href="https://battlefy.com/megalodon-gaming/mega-bronze-ao-ouro04/5a257e44825342034975f931/info?infoTab=details" target="_blank"><img src="images/slider/GmG_Box_Domingo20_LoL.jpg" class="camps" alt=""> </a>
 	-->
-	<!-- Domingo 19 -->
-	<a id="dom19" target="_blank"><img src="images/slider/Mega_Box_Domingo_LoL.jpg" class="camps" alt=""> </a>
-    <!-- Domingo 20 -->
-	<a id="dom20" target="_blank"><img src="images/slider/Mega_Box_Domingo20_LoL.jpg" class="camps" alt=""> </a>
+
         
 </div>
 </center>
@@ -198,6 +202,36 @@
 <script src="js/retina.min.js"></script> 
 <script src="js/modernizr.js"></script> 
 <script src="js/main.js"></script>
+
+<script>
+document.getElementById("abaTodos").click();
+function some(classe1,classe2){
+	$(classe1).hide();
+	$(classe2).hide();
+}
+
+function aparece(classe1,classe2,classe3,classe4){
+	$(classe1).show();
+	$(classe2).show();
+	$(classe3).show();
+	$(classe4).show();
+}
+
+function desmarca() {
+	$('#abaEspecial').css('background-color','')
+	$('#abaEloLimitado').css('background-color','')
+	$('#abaEloLivre').css('background-color','')
+	$('#abaTodos').css('background-color','')
+}
+
+function marca(classe){
+	$(classe).css('background-color','#bbb')
+}
+
+
+</script>
+
+<!--
 <script>
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
@@ -217,6 +251,7 @@ function openTab(evt, tabName) {
 document.getElementById("defaultOpen").click();
 
 </script>
+-->
 
 <script type="text/javascript">
 $(document).ready(function() {

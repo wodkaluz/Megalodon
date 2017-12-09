@@ -594,6 +594,8 @@ div.tab button.active {
 	position: relative;
 }
 
+
+
 .camps{ 
 	position: relative;
 	margin-bottom: 1%;
@@ -602,6 +604,34 @@ div.tab button.active {
 	min-width: 15%;
 	max-width: 80%;
 }
+
+.campsEloLivre{ 
+	position: relative;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	min-width: 15%;
+	max-width: 80%;
+}
+
+.campsEloLimitado{ 
+	position: relative;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	min-width: 15%;
+	max-width: 80%;
+}
+
+.campsEspeciais{ 
+	position: relative;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	min-width: 15%;
+	max-width: 80%;
+}
+
 
 #logo-wide{
 	width: 50%;
