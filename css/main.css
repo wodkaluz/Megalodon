@@ -533,6 +533,7 @@ div.tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+	
 }
 
 /* Style the buttons inside the tab */
@@ -543,7 +544,8 @@ div.tab button {
     outline: none;
     cursor: pointer;
 	width: 25%;
-    padding-top: 14px;
+    height:100%;
+	padding-top: 14px;
 	padding-bottom: 14px;
     font-size: 110%;
 }
