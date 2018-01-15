@@ -18,7 +18,11 @@
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="icon" href="images/slider/megalogo.png" sizes="16x16" type="image/png">
-
+<script>
+    $("document").ready(function () {
+        window.getElementById("abaTodos").click();
+    });
+</script>
 
 </head>
 
@@ -58,7 +62,7 @@
 
 <div class="tab">
 <b>
-  <button class="tablinks" onclick="some('',''); aparece('.campsEloLimitado','.campsEloLivre','.campsEspeciais'), desmarca(),marca('#abaTodos')" id='abaTodos'>Todos os Torneios</button>
+  <button class="tablinks" onclick="some('',''); aparece('.campsEloLimitado','.campsEloLivre','.campsEspeciais'), desmarca(),marca('#abaTodos'),some('','.campsEspeciais')", id='abaTodos'>Todos os Torneios</button>
   <button class="tablinks" onclick="aparece('.campsEloLimitado','.campsEloLivre','.campsEspeciais'); some('.campsEloLimitado','.campsEspeciais'), desmarca(),marca('#abaEloLivre')" id='abaEloLivre'>Elo Livre</button>
   <button class="tablinks" onclick="aparece('.campsEloLimitado','.campsEloLivre','.campsEspeciais'); some('.campsEloLivre','.campsEspeciais'), desmarca(),marca('#abaEloLimitado')" id='abaEloLimitado'>Elo Limitado e 1x1</button>
   <button class="tablinks" onclick="aparece('.campsEloLimitado','.campsEloLivre','.campsEspeciais'); some('.campsEloLivre','.campsEloLimitado'), desmarca(),marca('#abaEspecial'); " id='abaEspecial'>FAQ e Regras</button>
@@ -114,12 +118,10 @@
 </center>
 <!--FAQ E REGRAS-->
 
-<center>
-<section class="campsEspeciais">
-<h2>FAQ</h2></center>
-<h4>EM BREVE</h4>
-<center><h2 >Regras</h2></center>
-<h4>EM BREVE</h4>
+<center><h2 class="campsEspeciais">FAQ</h2></center>
+<h4 class="campsEspeciais">EM BREVE</h4>
+<center><h2 class="campsEspeciais">Regras</h2></center>
+<h4 class="campsEspeciais">EM BREVE</h4>
 <br>
 </section>
 

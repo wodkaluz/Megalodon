@@ -610,7 +610,9 @@ div.tab button.active {
 	text-indent: 4%;
 }
 
-
+.campsEspeciais {
+	display: none;
+}
 
 .camps{ 
 	position: relative;
